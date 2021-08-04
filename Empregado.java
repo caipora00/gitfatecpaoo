@@ -17,12 +17,36 @@ public class Empregado{
         return 0;        
     }
 
-    public String getTipo(){
+    public int getTipo(){
         return this.tipo;
     }
 
     public void setTipo(String tipo){
         this.tipo=tipo;
+    }
+
+    public double getSalario(){
+        return this.salario;
+    }
+
+    public void setSalario(String salario){
+        this.salario=salario;
+    }
+
+    public double getComissao(){
+        return this.comissao;
+    }
+
+    public void setComissao(String comissao){
+        this.comissao=comissao;
+    }
+
+    public double getBonus(){
+        return this.bonus;
+    }
+
+    public void setBonus(String salario){
+        this.bonus=bonus;
     }
 
     public String getNome(){
