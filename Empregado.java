@@ -4,6 +4,7 @@ public class Empregado{
     private double salario;
     private double comissao;
     private double bonus;
+    private int tipo;
 
     public double calculaSalario(){
         if(tipo == 1){
@@ -14,6 +15,14 @@ public class Empregado{
             return salario + bonus;
         }
         return 0;        
+    }
+
+    public String getTipo(){
+        return this.tipo;
+    }
+
+    public void setTipo(String tipo){
+        this.tipo=tipo;
     }
 
     public String getNome(){
